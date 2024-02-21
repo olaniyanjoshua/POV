@@ -19,16 +19,17 @@ ul {
 }
 
 .bg-steel {
-   background-color: #5f788a;
+    background-color: skyblue;/*#5f788a; */
 }
 
 .site-header .navbar-nav .nav-link {
-   color: #cbd5db;
+   color: black; /*#cbd5db;*/
 }
 
 .site-header .navbar-nav .nav-link:hover {
-   color: #ffffff;
+   color: #FF0800 /*#ffffff;*/
 }
+
 
 .site-header .navbar-nav .nav-link.active {
    font-weight: 500;
@@ -47,7 +48,7 @@ ul {
 }
 
 a.article-title:hover {
-   color: #428bca;
+   color: aliceblue /*#428bca */;
    text-decoration: none;
 }
 
@@ -89,10 +90,10 @@ a.article-title:hover {
    font-size: 2.5rem;
 }
 
-.footer {
-   background-color: #5f788a;
+.navbar-brand{
+   color: #FF0800;
 }
 
-p.last{
-   font-weight: 500;
-}
+.logout:hover{
+   color: #FF0800;
+   }
